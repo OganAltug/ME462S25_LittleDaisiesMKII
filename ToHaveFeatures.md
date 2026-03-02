@@ -5,6 +5,7 @@ Must to have features:
 - Easy to remove manually in case of emergency.
 - Manuel and hard coded control of the gripper
 - Finish before Incomplete
+- Two or three gripper design.
 
 
 Good to have features:
@@ -14,3 +15,4 @@ Good to have features:
 - Remote gripper controller with remote
 - Autonomus control of the gripper with image processing
 - Adding grippers to simulation
+- Performing automated demonstration tasks
