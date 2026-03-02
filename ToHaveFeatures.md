@@ -7,3 +7,5 @@ Must to have features:
 
 Good to have features:
 - Reliable in terms of end effector postion in multiple operations.
+- Camera and Image Processing integration
+- Pressure sensing
