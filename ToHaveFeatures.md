@@ -4,6 +4,7 @@ Must to have features:
 - Seamless electrical connection.
 - Easy to remove manually in case of emergency.
 - Manuel and hard coded control of the gripper
+- Finish before Incomplete
 
 
 Good to have features:
