@@ -12,3 +12,4 @@ Good to have features:
 - Pressure sensing
 - Remote gripper controller with remote
 - Autonomus control of the gripper with image processing
+- Adding grippers to simulation
