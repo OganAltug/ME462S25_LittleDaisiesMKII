@@ -2,6 +2,9 @@ Team Points:
 
 Progress:
 - Designed Zen tool and manufactured first version of Zen Tool
+
+    <img src="./ZenToolMounted.jpeg" alt="ZenToolMounted" width="200"/>
+
 - Tested very basic UR5e pose to pose motion with MuJoCo and Robotictoolbox library
 - Defined basic functionalities for the PCB of tool interface/handler (?)
 
@@ -16,3 +19,5 @@ To Do:
 - Look into PCB design and components that we could use (?)
 
 Tuesday Meeting Notes:
+
+
