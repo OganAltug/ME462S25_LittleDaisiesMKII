@@ -24,7 +24,7 @@ Monday Meeting Notes:
 
   <img src="./mujoco.gif" alt="Mujoco Sim" width="400">
 - Started basic functionalities for the PCB of tool interface/handler (?)
-- Discussed PCB manufacturing. [Check the PCB Manufacturing Report](../../PCB/HowTOLaserPCB.md)
+- Discussed PCB manufacturing. [Check the PCB Manufacturing Report](../PCB/HowTOLaserPCB.md)
 
   - Via manufacturing details, new ideas
   - Xtool setting to manufacture PCBs, KiCAD settings etc.
