@@ -55,4 +55,4 @@ To Do:
 
 Tuesday Meeting Notes:
 - Microcontroller wifi, deep-sleep, wifi wake support
-- 
+- Look into communication protocols
