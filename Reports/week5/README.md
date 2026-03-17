@@ -23,7 +23,7 @@ Monday Meeting Notes:
 - Tested very basic UR5e pose to pose motion with MuJoCo and Robotictoolbox library
 
   <img src="./mujoco.gif" alt="Mujoco Sim" width="400">
-- Started basic functionalities for the PCB of tool interface/handler (?)
+- Defined some requiremnts of the tool interface/handler [Requirements](../../Requirements/Readme.md)
 - Discussed PCB manufacturing. [Check the PCB Manufacturing Report](../../PCB/HowToLaserPCB.md)
 
   - Via manufacturing details, new ideas
