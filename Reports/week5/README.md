@@ -3,10 +3,10 @@ Team Points:
 - Naming convention revision 6/10
 - meeting minute 10/10
 - Locking interface PCB requirements 5/10
-- Locking interface Mechanical requirements 0/10
+- Locking interface Mechanical requirements 8/10
 - Robot control 7/10
 - Zen tool  (rotated by pi/2) 8/10
-- Total ?/60 --> avg ?/10
+- Total 44/60 --> avg 7.33/10
 
 Monday Meeting Notes:
 
@@ -24,19 +24,19 @@ Monday Meeting Notes:
 
   <img src="./mujoco.gif" alt="Mujoco Sim" width="400">
 - Started basic functionalities for the PCB of tool interface/handler (?)
-- Discussed PCB manufacturing. [Check the PCB Manufacturing Report](PCB/HowToLaserPCB.md)
+- Discussed PCB manufacturing. [Check the PCB Manufacturing Report](../../PCB/HowToLaserPCB.md)
 
   - Via manufacturing details, new ideas
   - Xtool setting to manufacture PCBs, KiCAD settings etc.
 - Kinematic coupling ideas:
-
+   [Google Doc for Locking Mechanism Ideas](https://docs.google.com/document/d/15yzl3hxYkYvtqdlGrBOaPBBX_cD7uZbD/edit?usp=sharing&ouid=110519594456022773011&rtpof=true&sd=true)
   - Dremel not a good idea
   - Active locking with UR5e power cable (Buğra found a paper about it)
   - The one with the multiple balls (like a bearing)
     --> doesnt lock rotation
   - Self-releasing grapple mechanism (again doesnt lock rotation)
   - locking kinematic links, with hinges to unlock
-  - ALL LINKS WILL BE GATHERED IN A FILE AND ITS LINK WILL BE REFERENCES HERE!!!!!!
+
 - Discussed locking interface essentials
 
 To Do:
