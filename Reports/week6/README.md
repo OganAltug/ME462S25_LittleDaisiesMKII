@@ -41,3 +41,10 @@ It would be nice if we can do following things:
 - start generating toolbox ideas after the requirements are set.
 - manufacture full set of zen tools.
 
+Tuesday Meeting
+- Remove tariffs if one of becomes president.
+- Toolbox may not need to be rigidly attached to the base, we can detect its position with a camera for example.
+- Use magnets for locking mechanism (strong tensile force, weak in shear)
+- Use ball magnets for Buğra's Design II or make the wedge a magnet to move the ball
+- Reusable dübel (böyle mi yazılıyo?), Buğra's push to turn design but with 90 degree movement version
+- Start talking about active grippers maybe
