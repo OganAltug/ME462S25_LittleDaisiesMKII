@@ -54,7 +54,6 @@ def main():
             
             # Rudimentary time keeping, will drift relative to wall clock.
             time_until_next_step = model.opt.timestep - (time.time() - step_start)
-            print(time_until_next_step)
             if time_until_next_step > 0:
                 time.sleep(time_until_next_step)
 
