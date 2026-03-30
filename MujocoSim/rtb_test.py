@@ -2,6 +2,7 @@ import roboticstoolbox as rtb
 import matplotlib.pyplot as plt
 import numpy as np
 from numpy import pi
+import swift
 
 class UR5e(rtb.DHRobot):
     def __init__(self):
@@ -20,6 +21,9 @@ class UR5e(rtb.DHRobot):
 
 
 if __name__ == "__main__":
+    env = swift.Swift()
+    env.launch(realtime=True)
+
     robot = UR5e()
     traj = rtb.jtraj(np.array(robot.configs["q0"]), np.array(robot.configs["qh"]), 100)
     # traj_func = rtb.trapezoidal_func(robot.configs["q0"], robot.configs["qh"], 100)
