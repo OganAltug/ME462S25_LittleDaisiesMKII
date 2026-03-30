@@ -6,6 +6,7 @@ from math import cos, sin
 from rtb_test import UR5e
 import roboticstoolbox as rtb
 import numpy as np
+from spatialmath import SE3
   
 def main():
     # Load the model
@@ -33,7 +34,16 @@ def main():
     timestep_count = 0
 
     time_vector = np.arange(0,10,timestep)
-    traj = rtb.jtraj(robot.configs["q0"], robot.configs["qh"], t=time_vector)
+    q2 = robot.ikine_LM(SE3.Trans(0.0, 0.5, 0.5) * SE3.RPY(-180,0,0,unit="deg")).q
+    q3 = robot.ikine_LM(SE3.Trans(0.0, 0.5, 0.25) * SE3.RPY(-180,0,0,unit="deg")).q
+    # q4 = robot.ikine_LM(SE3.Trans(0.0, 0.5, 0.5) * SE3.RPY(-180,0,90,unit="deg")).q
+    traj1 = rtb.jtraj(robot.configs["q0"], robot.configs["qh"], t=time_vector)
+    traj2 = rtb.jtraj(robot.configs["qh"], q2, t=time_vector)
+    traj3 = rtb.jtraj(q2, q3, t=time_vector)
+    traj4 = rtb.jtraj(q3, q2, t=time_vector)
+    traj5 = rtb.jtraj(q2, robot.configs["qh"], t=time_vector)
+    traj = np.concatenate((traj1.q, traj2.q, traj3.q, traj4.q, traj5.q), axis=0)
+    print(traj)
     
     set_ang_targets([0.0, 0.0, 0.0, 0.0, 0.0, 0.0]) # Start with time step 0 speeds
     with mujoco.viewer.launch_passive(model, data) as viewer:
@@ -41,8 +51,8 @@ def main():
         while viewer.is_running():
             step_start = time.time()
 
-            if timestep_count < len(time_vector):
-                set_ang_targets(traj.q[timestep_count])
+            if timestep_count < len(traj):
+                set_ang_targets(traj[timestep_count])
             mujoco.mj_step(model, data)
 
             # Read robot base position
