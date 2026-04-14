@@ -1,20 +1,20 @@
 What we have done this week:
 
-- Robot Arm Control will be still in progress. (/10)
+- Robot Arm Control will be still in progress. (9/10)
   - Ogan continued to show some progress in the robot arm control. Some simulations are done.   
     - [Video 1](./armcontrol_ogan.mp4)  
     - Some problems encountered.
       - Both MuJoCo and ROS have little/no documentation regarding the robot arm control.
       - Most likely C++ use will be needed (Buğra does not have much experience in C++).
 
-- Optimization of the Dovetail & Pin Locking Mechanism will be performed. (/10)
+- Optimization of the Dovetail & Pin Locking Mechanism will be performed. (10/10)
   - Deniz optimized the dovetail and the pin locking mechanism further. Almost finalized the concept.   
     - [Video 1](./locking_deniz1.mp4)  
     - [Video 2](./locking_deniz2.mp4)
   - Buğra has considered a different type of pin system which might be more usable for charging connections in the toolbox. (Probably Deniz's system will be used anyway.)  
     <img src="./locking_deniz3.jpeg" alt="locking_bugra2" width="320"/>
 
-- An initial design for the tool box will be done according to the Locking Mechanism (for simple testing purposes). (/10)
+- An initial design for the tool box will be done according to the Locking Mechanism (for simple testing purposes). (8/10)
   - Naci designed a toolbox concept.  
     <img src="./locking_bugra1.jpeg" alt="toolbox_naci" width="320"/>
   - Buğra designed a toolbox concept with rotational springs and moving arms (might contain magnets for better stability). Hasn't manufactured it yet.  
@@ -30,7 +30,7 @@ What we have done this week:
     - Cable charger, C-type / barrel connector.  
       Unlikely to be used since plugging a cable might be problematic and would require a high level of robot arm control with a more optimized locking mechanism.
 
-Overall Score /30 =
+Overall Score 27/30 => 9/10
 
 
 What to do in the next week:
