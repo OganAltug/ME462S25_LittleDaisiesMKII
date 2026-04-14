@@ -18,7 +18,7 @@ What we have done this week:
   - Naci designed a toolbox concept.  
     <img src="./locking_bugra1.jpeg" alt="toolbox_naci" width="320"/>
   - Buğra designed a toolbox concept with rotational springs and moving arms (might contain magnets for better stability). Hasn't manufactured it yet.  
-    <img src="./locking_bugra1.jpeg" alt="locking_bugra2" width="320"/>
+    <img src="./locking_bugra2.jpeg" alt="locking_bugra2" width="320"/>
   - For toolbox charging, some investigations were made.
     - Pogo pin charger will most likely be used:  
       "https://www.komponentci.net/2-pin-10mm-90c-kablolu-pcbli-pogo-pin-manyetik-konnektor-takimi-type-c-soketli-pmu47925"  
