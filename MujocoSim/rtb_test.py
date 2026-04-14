@@ -2,7 +2,7 @@ import roboticstoolbox as rtb
 import matplotlib.pyplot as plt
 import numpy as np
 from numpy import pi
-import swift
+import spatialmath as sm
 
 class UR5e(rtb.DHRobot):
     def __init__(self):
@@ -21,12 +21,17 @@ class UR5e(rtb.DHRobot):
 
 
 if __name__ == "__main__":
-    env = swift.Swift()
-    env.launch(realtime=True)
-
     robot = UR5e()
-    traj = rtb.jtraj(np.array(robot.configs["q0"]), np.array(robot.configs["qh"]), 100)
-    # traj_func = rtb.trapezoidal_func(robot.configs["q0"], robot.configs["qh"], 100)
-    # print(traj.q)
+    # traj = rtb.jtraj(np.array(robot.configs["q0"]), np.array(robot.configs["qh"]), 100)
+
+    robot.q = robot.configs["qh"]
+    Tep = robot.fkine(robot.q) * sm.SE3.Trans(0.2, 0.2, 0.45)
+    arrived = False
+
+    dt = 0.05
+
+    while not arrived:
+        v, arrived = rtb.p_servo(robot.fkine(robot.q), Tep, 1)
+        robot.qd = np.linalg.pinv(robot.jacobe(robot.q)) @ v
+
     robot.plot(traj.q, block=True)
-    # traj.plot()
