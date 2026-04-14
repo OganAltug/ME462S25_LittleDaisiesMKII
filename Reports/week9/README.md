@@ -74,8 +74,8 @@ What to do in the next week:
   - Some Already existing ideas:
     - Eye who tracks the person that it sees.
     - Some sort of gripping mechanisms.
-    - torNA. (Naci's favorite) (Bugün torna için ne yaptın??)
-      <img src="./tornaci1.png" alt="torNACİ" width="320"/>
-      <img src="./tornaci2.png" alt="torNACİ" width="320"/>
-      <img src="./tornaci3.png" alt="torNACİ" width="320"/>
+    - torNA. (Naci's favorite) (Bugün torna için ne yaptın???)  
+<img src="./tornaci1.png" alt="torNACİ" width="320"/>
+<img src="./tornaci2.png" alt="torNACİ" width="320"/>
+<img src="./tornaci3.png" alt="torNACİ" width="320"/>
 
