@@ -53,6 +53,7 @@ What we have done this week:
 
 
 Naci photo Update "What have you done for TORNA today?"
+
 <img src="./tornaci.png" alt="locking_bugra" width="320"/>
 <img src="./tornaci2.jfif" alt="locking_bugra" width="320"/>
 <img src="./tornaci3.jfif" alt="locking_bugra" width="320"/>
