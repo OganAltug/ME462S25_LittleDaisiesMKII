@@ -5,6 +5,9 @@ What we have done this week:
   Accordigly, mechanical system of the toolbox designs must be updated. Since the charging will be important part of the toolbox,
   more search for it must be performed and discussed. (/10)
 - Active tools will be discussed and searched. (Depending on them PCB specifications will be assigned.) (/10)
+- Naci tried to deisng a gripper. 
+
+Active tool design ideas:
   - Some Already existing ideas:
       - Dragon head fire 
       - Lightsaber
@@ -29,7 +32,7 @@ What we have done this week:
       - Ahşap zımparalama toolu vs.
       - Tool üzerine bir ekran koyarız, ekrandan romer içinde nereye gitmek istediğini sorar, seçer. Sonra arm ile tool parmak gösterir gibi nereye gideceğini gösterir.
       - passive  tool olarak yine kalem koyarız UR5 in zaten belli açı dönme özelliği var angle vs çizilebilir.
-<img src="./meet0.png" alt="ulusasesleniş" width="320"/>   
+ 
 
 
 
@@ -39,6 +42,11 @@ What we have done this week:
 - Mainly talked about the springback affect of the button is examined.
 - Deniz's idea with the magnets and the pin is discussed. ü
 - A new design for the tool changer with the magnets is presented by Deniz.
+<img src="./meet0.png" alt="ulusasesleniş" width="320"/>
+
+
+
+
 
 18.04.2026 Meeting Minute:
 - Buğra's tool box design is drawn and discussed.
