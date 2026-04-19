@@ -29,7 +29,7 @@ What we have done this week:
       - Ahşap zımparalama toolu vs.
       - Tool üzerine bir ekran koyarız, ekrandan romer içinde nereye gitmek istediğini sorar, seçer. Sonra arm ile tool parmak gösterir gibi nereye gideceğini gösterir.
       - passive  tool olarak yine kalem koyarız UR5 in zaten belli açı dönme özelliği var angle vs çizilebilir.
-<img src="./meet0.jpeg" alt="ulusasesleniş" width="320"/>   
+<img src="./meet0.png" alt="ulusasesleniş" width="320"/>   
 
 
 
@@ -46,16 +46,16 @@ What we have done this week:
 - Deniz will draw the Ogan's idea with the pin.
 - Buğra considered about the locking mechanism with more simple than wedge. Might be tried. Not fully desinged.
     <img src="./bugra_magnet_toolchanger.jpeg" alt="locking_bugra" width="320"/>
-<img src="./meet1.jpeg" alt="naciseker" width="320"/>
-<img src="./meet2.jpeg" alt="nacigıdık" width="320"/>
+<img src="./meet1.jpg" alt="naciseker" width="320"/>
+<img src="./meet2.jfif" alt="nacigıdık" width="320"/>
   
 
 
 
 Naci photo Update "What have you done for TORNA today?"
-<img src="./tornaci.jpeg" alt="locking_bugra" width="320"/>
-<img src="./tornaci2.jpeg" alt="locking_bugra" width="320"/>
-<img src="./tornaci3.jpeg" alt="locking_bugra" width="320"/>
+<img src="./tornaci.png" alt="locking_bugra" width="320"/>
+<img src="./tornaci2.jfif" alt="locking_bugra" width="320"/>
+<img src="./tornaci3.jfif" alt="locking_bugra" width="320"/>
 <img src="./tornaci4.png" alt="locking_bugra" width="320"/>
 
 
