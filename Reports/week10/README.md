@@ -45,7 +45,7 @@ What we have done this week:
   - Naci decided to change the alignment of the arms so that it will be better.
 - Deniz will draw the Ogan's idea with the pin.
 - Buğra considered about the locking mechanism with more simple than wedge. Might be tried. Not fully desinged.
-    <img src="./bugra_magnet_toolchanger.jpeg" alt="locking_bugra" width="320"/>
+    <img src="./bugra_magnet_toolchanger.jfif" alt="locking_bugra" width="320"/>
 <img src="./meet1.jpg" alt="naciseker" width="320"/>
 <img src="./meet2.jfif" alt="nacigıdık" width="320"/>
   
