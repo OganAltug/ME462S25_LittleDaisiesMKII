@@ -61,7 +61,7 @@ Active tool design ideas:
 - Several actıve tools and concepts has been discussed:
   - **Zen Sand Drawing & Hologram:** The robot will draw in the sand using the "Zen tool." The tool-changing process will be recorded on video. Additionally, the currently active tool will be displayed via a hologram projection.
 
-		- **Dart Collection & Shooting:** The robotic arm will gather darts (or small balls) and then shoot the ammunition it has collected.
+  - **Dart Collection & Shooting:** The robotic arm will gather darts (or small balls) and then shoot the ammunition it has collected.
 
   - **Defensive Sand Artist:** The robot will draw on the sand with the Zen tool. If someone messes up the sand drawing, the robot will grab a Nerf gun and shoot the person who ruined it.
 
