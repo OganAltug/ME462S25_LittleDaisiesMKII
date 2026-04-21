@@ -7,6 +7,8 @@ What we have done this week:
 - Active tools will be discussed and searched. (Depending on them PCB specifications will be assigned.) (9/10)
 - total (25/30) 
 
+<video controls src="pin_tool_change.mp4" title="Title"></video>
+
 Active tool design ideas:
   - Some Already existing ideas:
       - Dragon head fire 
