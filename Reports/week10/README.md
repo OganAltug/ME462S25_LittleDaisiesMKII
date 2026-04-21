@@ -1,11 +1,11 @@
 What we have done this week:
 
-- Robot arm control will be continued, it requires more effort than we have expected. (/10)
+- Robot arm control will be continued, it requires more effort than we have expected. (8/10)
 - With the final version of the locking mechanism, the first version of the tool box needs to be tested.
   Accordigly, mechanical system of the toolbox designs must be updated. Since the charging will be important part of the toolbox,
-  more search for it must be performed and discussed. (/10)
-- Active tools will be discussed and searched. (Depending on them PCB specifications will be assigned.) (/10)
-- Naci tried to deisng a gripper. 
+  more search for it must be performed and discussed. (8/10)
+- Active tools will be discussed and searched. (Depending on them PCB specifications will be assigned.) (9/10)
+- total (25/30) 
 
 Active tool design ideas:
   - Some Already existing ideas:
