@@ -27,6 +27,9 @@
 - **Ogan tested different configuration of the tool box. (/10)**
   <br>
   ![Tool Box Video 2](./tool_box_video2.mp4)
+  <video width="400" controls>
+  <source src="./tool_box_video1.mp4" type="video/mp4">
+  </video>
 
 - **Buğra derived the kinematic relations for the Gripper Mechanism. (/10)**
   - Derivations and the source code is added as well.
