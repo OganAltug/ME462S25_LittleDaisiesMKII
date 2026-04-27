@@ -77,8 +77,8 @@
 ### What have we done for TORNA this week?
 <p align="left">
   <img src="./tornaci1.png" alt="tornaci" width="160"/>
-  <img src="./naci1.jpeg" alt="tornaci" width="320"/>
-  <img src="./naci2.jpeg" alt="tornaci" width="320"/>
+  <img src="./naci1.jpeg" alt="tornaci" width="200"/>
+  <img src="./naci2.jpeg" alt="tornaci" width="200"/>
 </p>
 
 ---
