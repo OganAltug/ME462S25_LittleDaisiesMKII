@@ -17,13 +17,13 @@
 
 - **Fixed tool box is tested (/10)**
   <br>
-  <video src="tool_box_video1.mp4" width="320" controls></video>
+  ![Tool Box Video 1](tool_box_video1.mp4)
   <br>
   <img src="./tool_box.jpeg" alt="tool_box_mechanism" width="200"/>
 
 - **Ogan tested different configuration of the tool box. (/10)**
   <br>
-  <video src="tool_box_video2.mp4" width="320" controls></video>
+  ![Tool Box Video 2](tool_box_video2.mp4)
 
 - **Buğra derived the kinematic relations for the Gripper Mechanism. (/10)**
   - Derivations and the source code is added as well.
@@ -63,8 +63,7 @@
   - Naci will make progress about the electrical interface and Pico.
   - Deniz & Buğra will deal with the image processing.
   - Ogan will try to move the arm with own robot control codes.
-  - A final position of the tool box will be decided and will not be changed.
-    - It will be positioned in the simulations and boundaries will be set.   
+  - A final position of the tool box will be decided and fixed.
 
 ---
 
