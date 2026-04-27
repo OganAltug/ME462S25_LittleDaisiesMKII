@@ -17,13 +17,13 @@
 
 - **Fixed tool box is tested (/10)**
   <br>
-  [Watch tool box test video](./tool_box_video1.mp4)
+  ![Tool Box Video 1](./tool_box_video1.mp4)
   <br>
   <img src="./tool_box.jpeg" alt="tool_box_mechanism" width="200"/>
 
 - **Ogan tested different configuration of the tool box. (/10)**
   <br>
-  [Watch tool box test video](./tool_box_video1.mp4)
+  ![Tool Box Video 2](./tool_box_video2.mp4)
 
 - **Buğra derived the kinematic relations for the Gripper Mechanism. (/10)**
   - Derivations and the source code is added as well.
