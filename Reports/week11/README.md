@@ -35,11 +35,12 @@
   - Derivations and the source code is added as well.
     - "KinematicRelation.py" & "ME462_loopClosure"
     <br>
-    <img src="./derivations.png" alt="kinematic_relations" width="400"/>
+    <img src="./derivations.png" alt="kinematic_relations" width="200"/>
+
+### Point of this week (/10) = 
 
 ---
 
-### Point of this week (/10) = 
 
 ### 27.04.2026 Meeting Minute:
 <img src="./meeting.jpeg" alt="meeting" width="300"/>
