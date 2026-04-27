@@ -1,11 +1,13 @@
 What we have done this week:
 
-- Robot arm control will be continued, it requires more effort than we have expected. (/10)
+- Robot arm control will be continued, it requires more effort than we have expected. (8/10)
 - With the final version of the locking mechanism, the first version of the tool box needs to be tested.
   Accordigly, mechanical system of the toolbox designs must be updated. Since the charging will be important part of the toolbox,
-  more search for it must be performed and discussed. (/10)
-- Active tools will be discussed and searched. (Depending on them PCB specifications will be assigned.) (/10)
-- Naci tried to deisng a gripper. 
+  more search for it must be performed and discussed. (8/10)
+- Active tools will be discussed and searched. (Depending on them PCB specifications will be assigned.) (9/10)
+- total (25/30) 
+
+<video controls src="pin_tool_change.mp4" title="Title"></video>
 
 Active tool design ideas:
   - Some Already existing ideas:
@@ -56,7 +58,27 @@ Active tool design ideas:
     <img src="./bugra_magnet_toolchanger.jfif" alt="locking_bugra" width="320"/>
 <img src="./meet1.jpg" alt="naciseker" width="320"/>
 <img src="./meet2.jfif" alt="nacigıdık" width="320"/>
-  
+
+20.04.2026 Meeting minute:
+- Several actıve tools and concepts has been discussed:
+  - **Zen Sand Drawing & Hologram:** The robot will draw in the sand using the "Zen tool." The tool-changing process will be recorded on video. Additionally, the currently active tool will be displayed via a hologram projection.
+
+  - **Dart Collection & Shooting:** The robotic arm will gather darts (or small balls) and then shoot the ammunition it has collected.
+
+  - **Defensive Sand Artist:** The robot will draw on the sand with the Zen tool. If someone messes up the sand drawing, the robot will grab a Nerf gun and shoot the person who ruined it.
+
+  - **Laser Gunslinger:** A "gunslinger" duel scenario where a robot and a human face off, shooting lasers at each other at a specific moment (time t).
+
+  - **Model-Making Robot:** A robot designed for crafting. It will cut cardboard, apply glue, and assemble the pieces by sticking the next model part on top.
+
+  - **Frustrated Organizer:** If a user takes items from their exact positions on a table and moves them, the "annoyed" robot will put them back. If the user moves them again, the robotic arm will grab a gun and try to shoot. If it misses, it will unplug its own power cord out of frustration.
+
+  - **Soldering Setup:** A robotic setup designed for soldering tasks.
+
+  - **Painting Wand:** A staff or wand tool programmed to paint/draw.
+
+  - **Blackjack Dealer Robot:** A robot acting as a casino dealer to play Blackjack. It will deal the cards, while a separate tool attachment will shuffle the deck.
+<img src="./tierlist.png" alt="tier_list" width="320"/>
 
 
 
