@@ -18,6 +18,9 @@
 - **Fixed tool box is tested (/10)**
   <br>
   ![Tool Box Video 1](./tool_box_video1.mp4)
+  <video width="400" controls>
+  <source src="./tool_box_video1.mp4" type="video/mp4">
+  </video>
   <br>
   <img src="./tool_box.jpeg" alt="tool_box_mechanism" width="200"/>
 
