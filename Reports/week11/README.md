@@ -33,6 +33,7 @@
 
 - **Buğra derived the kinematic relations for the Gripper Mechanism. (/10)**
   - Derivations and the source code is added as well.
+    - "KinematicRelation.py" & "ME462_loopClosure"
     <br>
     <img src="./derivations.png" alt="kinematic_relations" width="400"/>
 
