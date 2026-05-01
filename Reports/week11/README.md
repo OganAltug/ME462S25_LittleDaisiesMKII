@@ -1,74 +1,73 @@
 ### What have we done this week:
 
 - **Active tools are discussed. (/10)**
+
   - 1 Active tool is decided. A Face/Eye (Whether mechanic or in a LCD screen which follows the humans)
     https://www.youtube.com/shorts/ZUmvmScEfdM
   - Second active tool will be decided.
-
 - **Naci designed and printed a design for the Gripper Mechanism. (Also, includes Raspberry Pi 4) (/10)**
-  <br>
-  <img src="./gripper1.png" alt="gripping_mechanism" width="200"/>
-
+  `<br>`
+  `<img src="./img/gripper1.png" alt="gripping_mechanism" width="200"/>`
 - **Ogan printed some versions of the Zen Tool with the interface of handler/locking mechanism tool side. (/10)**
-  <br>
-  <img src="./zen.jpeg" alt="zen_mechanism" width="200"/>
-
+  `<br>`
+  `<img src="./img/zen.jpeg" alt="zen_mechanism" width="200"/>`
 - **Deniz handled the tool box problems and printed. (/10)**
-
 - **Fixed tool box is tested (/10)**
-  <br>
-  ![Tool Box Video 1](./tool_box_video1.mp4)
+  `<br>`
+  ![Tool Box Video 1](./videos/tool_box_video1.mp4)
+
   <video width="400" controls>
-  <source src="./tool_box_video1.mp4" type="video/mp4">
+  <source src="./videos/tool_box_video1.mp4" type="video/mp4">
   </video>
   <br>
   <img src="./tool_box.jpeg" alt="tool_box_mechanism" width="200"/>
-
 - **Ogan tested different configuration of the tool box. (/10)**
-  <br>
+  `<br>`
   ![Tool Box Video 2](./tool_box_video2.mp4)
-  <video width="400" controls>
-  <source src="./tool_box_video1.mp4" type="video/mp4">
-  </video>
 
+  <video width="400" controls>
+  <source src="./videos/tool_box_video1.mp4" type="video/mp4">
+  </video>
 - **Buğra derived the kinematic relations for the Gripper Mechanism. (/10)**
+
   - Derivations and the source code is added as well.
     - "KinematicRelation.py" & "ME462_loopClosure"
-    <br>
-    <img src="./derivation1.png" alt="kinematic_relations" width="200"/>
-    <img src="./derivation2.png" alt="kinematic_relations" width="200"/>
-    <img src="./derivation3.png" alt="kinematic_relations" width="200"/>
+      `<br>`
+      `<img src="./img/derivation1.png" alt="kinematic_relations" width="200"/>`
+      `<img src="./img/derivation2.png" alt="kinematic_relations" width="200"/>`
+      `<img src="./img/derivation3.png" alt="kinematic_relations" width="200"/>`
 
-### Point of this week (/10) = 
+### Point of this week (/10) =
 
 ---
 
-
 ### 27.04.2026 Meeting Minute:
-<img src="./meeting.jpeg" alt="meeting" width="300"/>
+
+<img src="./img/meeting.jpeg" alt="meeting" width="300"/>
 
 - **First Active tool concept is decided.** A Face/Eye (Whether mechanic or in a LCD screen which follows the humans)
 - **Options for the second active tool is discussed.**
+
   - Some options:
     - A shooting mechanism for a nerflike mechanism
-      <br>
-      <img src="./shooting_mechanism.jpeg" alt="shooting_mechanism" width="160"/>
-      <br>
+      `<br>`
+      `<img src="./img/shooting_mechanism.jpeg" alt="shooting_mechanism" width="160"/>`
+      `<br>`
       https://www.youtube.com/watch?v=57T8I9CkCno
     - Tools like scissor/Screw Driver/Drill/Glue (Prit/Hot Glue)
     - Different kind of gripper mechanism.
-      <br>
-      <img src="./ahtapot.png" alt="ahtapot" width="160"/>
-      <br>
+      `<br>`
+      `<img src="./img/ahtapot.png" alt="ahtapot" width="160"/>`
+      `<br>`
       https://www.youtube.com/shorts/aH7n_udyZGg
     - Naci proposed a weird gripping mechanism that will work with two cameras and the deflection of points.
-      <br>
+      `<br>`
       https://punyo.tech/bubble-gripper.html
-      <br>
+      `<br>`
       https://www.youtube.com/watch?v=2fIzF_gmWG0
-
 - **The process of the project will be fasten this 2 weeks due to şenlik and exams.**
 - **Key Decisions:**
+
   - Naci will finalize the gripper.
   - Naci will make progress about the electrical interface and Pico.
   - Deniz & Buğra will deal with the image processing.
@@ -78,6 +77,7 @@
 ---
 
 ### What have we done for TORNA this week?
+
 <p align="left">
   <img src="./tornaci1.png" alt="tornaci" width="160"/>
   <img src="./naci1.jpeg" alt="tornaci" width="200"/>
@@ -87,6 +87,7 @@
 ---
 
 ### What we are aiming to do this week:
+
 - Naci will finalize the gripper.
 - Naci will make progress about the electrical interface and Pico.
 - Deniz & Buğra will deal with the image processing. (Raspberry Pi 4 will be used.)
