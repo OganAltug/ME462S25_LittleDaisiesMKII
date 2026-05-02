@@ -1,92 +1,91 @@
-What we have done this week:
+# Weekly Report: LittleDaisiesMKII - Week 10
 
-- Robot arm control will be continued, it requires more effort than we have expected. (8/10)
-- With the final version of the locking mechanism, the first version of the tool box needs to be tested.
-  Accordigly, mechanical system of the toolbox designs must be updated. Since the charging will be important part of the toolbox,
-  more search for it must be performed and discussed. (8/10)
-- Active tools will be discussed and searched. (Depending on them PCB specifications will be assigned.) (9/10)
-- total (25/30) 
+**Date Range:** April 14 - April 20, 2026
 
-<video controls src="pin_tool_change.mp4" title="Title"></video>
+---
 
-Active tool design ideas:
-  - Some Already existing ideas:
-      - Dragon head fire 
-      - Lightsaber
-      - Nerf (Something to fire)
-      - Nail gun
-      - Mesela araba tarzında  birşey tutsun, tool onu tutsun bıraksın gezsin biraz sonra tool geri onu tutsun.
-      - Table tennis tarzı birşey veya 461 projesi gibi 
-        (Rack and pinion düşün, gearın bir tarafı boş bir tarafı dolu. Dişler olduğu kısım çekince yayı sıkar. Boşa gelince yay bir anda patlarır.)(Vurma mekanizması)
-      - Paper cutting mechanisms vs "https://www.youtube.com/watch?v=X-Pepnucxj4" 
-        Mesela, bi plane belirtelim, tool sıfırlasın. Kağıdı koyalım, 3cm kes diyelim. orayı mesafe ölçsün ve kessin. 
-        Ya da denizin lazerle 10 cm göstersin projesi mesela.
-      - "https://www.youtube.com/shorts/ouqi2ZIhbjg"
-      - "https://www.youtube.com/shorts/zmz0O5iZs5I"
-      - Belki bir plate tutmak için pressure ile çeken bir tool.
-      - Sulama sistemi, midibotun üzerine çiçek koyulur o gelir bizimki sular.
-      - Grippers
-        - adaptive fingers
-        - magnetic tools
-        - vacuum tools
-        - insertion tools
-        - Şöyle bir gripper denenebilir "https://www.youtube.com/shorts/aH7n_udyZGg"
-      - Ahşap zımparalama toolu vs.
-      - Tool üzerine bir ekran koyarız, ekrandan romer içinde nereye gitmek istediğini sorar, seçer. Sonra arm ile tool parmak gösterir gibi nereye gideceğini gösterir.
-      - passive  tool olarak yine kalem koyarız UR5 in zaten belli açı dönme özelliği var angle vs çizilebilir.
- 
+## 📊 Team Performance & Scoring
 
+*Evaluation of specific tasks and deliverables based on project requirements.*
 
+| Deliverable / Metric      | Score           | Notes                                                                                  |
+| :------------------------ | :-------------- | :------------------------------------------------------------------------------------- |
+| Robot Arm Control         | 8/10            | Ongoing effort; requires more time than expected                                       |
+| Toolbox Testing & Updates | 8/10            | Mechanical updates following locking mechanism finalization; charging research ongoing |
+| Active Tool Research      | 9/10            | Extensive brainstorming and tier-listing of concepts                                   |
+| **Total Score**     | **25/30** | **Avg: 8.33/10**                                                                 |
 
-17.04.2026 Meeting Minute:
-- Bugra's design idea is discussed, arms with spring (buckling importance) is discussed.
-- Ogan's idea tool box with design pin is discusssed.
-- Mainly talked about the springback affect of the button is examined.
-- Deniz's idea with the magnets and the pin is discussed. ü
-- A new design for the tool changer with the magnets is presented by Deniz.
-<img src="./meet0.png" alt="ulusasesleniş" width="320"/>
+---
 
+## 🤝 Meeting Notes
 
+### 17.04.2026 Meeting
 
+**Key Discussion Points:**
 
+* **Design Ideas:** Discussed Buğra's arm design with springs (focus on buckling) and Ogan's toolbox design with pins.
+* **Analysis:** Examined the springback effect of the button.
+* **New Concept:** Deniz presented a new tool-changer design utilizing magnets and pins.
 
-18.04.2026 Meeting Minute:
-- Buğra's tool box design is drawn and discussed.
-  - Naci decided to change the alignment of the arms so that it will be better.
-- Deniz will draw the Ogan's idea with the pin.
-- Buğra considered about the locking mechanism with more simple than wedge. Might be tried. Not fully desinged.
-    <img src="./bugra_magnet_toolchanger.jfif" alt="locking_bugra" width="320"/>
-<img src="./meet1.jpg" alt="naciseker" width="320"/>
-<img src="./meet2.jfif" alt="nacigıdık" width="320"/>
+### 18.04.2026 Meeting
 
-20.04.2026 Meeting minute:
-- Several actıve tools and concepts has been discussed:
-  - **Zen Sand Drawing & Hologram:** The robot will draw in the sand using the "Zen tool." The tool-changing process will be recorded on video. Additionally, the currently active tool will be displayed via a hologram projection.
+* **Toolbox Design:** Buğra's design was drawn; Naci updated arm alignment for better performance.
+* **Drafting:** Deniz tasked with drawing Ogan's pin-based idea.
+* **Simplified Locking:** Buğra proposed a simpler magnetic locking mechanism alternative to the wedge design.
 
-  - **Dart Collection & Shooting:** The robotic arm will gather darts (or small balls) and then shoot the ammunition it has collected.
+### 20.04.2026 Meeting
 
-  - **Defensive Sand Artist:** The robot will draw on the sand with the Zen tool. If someone messes up the sand drawing, the robot will grab a Nerf gun and shoot the person who ruined it.
+* **Concept Brainstorming:** Discussed a wide variety of interactive scenarios:
+  * **Zen Sand Artist:** Drawing in sand with a hologram display and recorded tool changes.
+  * **Combat/Defense:** Nerf gun defense for sand art, laser "gunslinger" duels, and dart shooting.
+  * **Creative/Utility:** Model-making (cutting/gluing), soldering, painting wands, and casino Blackjack dealing.
+  * **Personality:** The "Frustrated Organizer" that puts items back or shoots if moved repeatedly.
 
-  - **Laser Gunslinger:** A "gunslinger" duel scenario where a robot and a human face off, shooting lasers at each other at a specific moment (time t).
+---
 
-  - **Model-Making Robot:** A robot designed for crafting. It will cut cardboard, apply glue, and assemble the pieces by sticking the next model part on top.
+## 🖼️ Visual Documentation & Progress
 
-  - **Frustrated Organizer:** If a user takes items from their exact positions on a table and moves them, the "annoyed" robot will put them back. If the user moves them again, the robotic arm will grab a gun and try to shoot. If it misses, it will unplug its own power cord out of frustration.
+*Capturing hardware builds and simulation results.*
 
-  - **Soldering Setup:** A robotic setup designed for soldering tasks.
+### 🎥 Media (Videos)
 
-  - **Painting Wand:** A staff or wand tool programmed to paint/draw.
+* **Pin Tool Change Test:**
+  [Video 1](./media/pin_tool_change.mp4)
 
-  - **Blackjack Dealer Robot:** A robot acting as a casino dealer to play Blackjack. It will deal the cards, while a separate tool attachment will shuffle the deck.
-<img src="./tierlist.png" alt="tier_list" width="320"/>
+### 📷 Images
 
+* **Deniz's Magnet-Pin Concept:**
+  `<img src="./img/meet0.png" alt="Magnet Pin Concept" width="320"/>`
+* **Buğra's Simple Magnetic Changer:**
+  `<img src="./img/bugra_magnet_toolchanger.jfif" alt="Magnetic Changer" width="320"/>`
+* **Naci & Team Meeting Logs:**
+  `<img src="./img/meet1.jpg" alt="Meeting Note 1" width="320"/>` `<img src="./img/meet2.jfif" alt="Meeting Note 2" width="320"/>`
+* **Active Tool Tier List:**
+  `<img src="./img/tierlist.png" alt="Tier List" width="320"/>`
 
+---
 
-Naci photo Update "What have you done for TORNA today?"
+## 🏗️ Active Tool Design Ideas
 
-<img src="./tornaci.png" alt="locking_bugra" width="320"/>
-<img src="./tornaci2.jfif" alt="locking_bugra" width="320"/>
-<img src="./tornaci3.jfif" alt="locking_bugra" width="320"/>
-<img src="./tornaci4.png" alt="locking_bugra" width="320"/>
+A collection of existing and proposed concepts for tool integration:
 
+* **Existing Ideas:** Dragon head fire, lightsaber, Nerf/Nail gun, car-carrying tool.
+* **Mechanical Systems:** Hitting mechanisms (Rack & Pinion with spring release), paper cutting (distance measurement & slicing), and sandpaper tools.
+* **Grippers:** Adaptive fingers, magnetic, vacuum, and insertion tools.
+* **Interactive:** UI screens for Romer navigation and passive tools like kalem/pens for UR5 angle drawings.
 
+## 📝 To-Do List (Action Items)
+
+### Immediate Priority
+
+- [ ] **Hardware:** Update mechanical toolbox designs and perform testing with the final locking mechanism.
+- [ ] **Charging:** Continue research and final discussion on toolbox charging integration.
+- [ ] **Control:** Dedicate more effort to Robot Arm Control progress.
+
+### Research & Development
+
+- [ ] **PCB Specs:** Assign PCB specifications based on selected active tools.
+- [ ] **Manufacturing:** Continue "torNA" progress (Naci).
+
+* **torNA Status:**
+  `<img src="./img/tornaci.png" width="80"/>` `<img src="./img/tornaci2.jfif" width="80"/>` `<img src="./img/tornaci3.jfif" width="80"/>` `<img src="./img/tornaci4.png" width="80"/>`
