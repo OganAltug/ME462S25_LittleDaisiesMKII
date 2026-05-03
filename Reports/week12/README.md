@@ -21,14 +21,63 @@
 
 ## 🤝 Meeting Notes
 
-### [Day, Date] - Primary Meeting
+### [May 3, 2026] - Group Meeting
+
 
 **Key Discussion Points:**
 
-* **Decisions:** [e.g., Naming convention finalized, communication protocols selected]
-* **Hardware Progress:** [e.g., Zen Tool versioning, sieve manufacturing]
-* **Simulation & Control:** [e.g., MuJoCo pose-to-pose testing, Robotictoolbox integration]
-* **Manufacturing:** [e.g., PCB laser settings, KiCAD updates, via manufacturing]
+* For technical sync, everyone mentioned what they have  done until the meeting. We did discuss what we will do untill the tuesday meeting and gather some thoughts about the ideas.
+
+
+* Deniz did some work on camera calibration via charuco markers and mentioned about it. He says that on the xy plane, there were errors but in the dept measurements, it was quite okay.
+
+
+* Buğra mentioned that whether we need precise camera coordinate or what since we only tell if there is human and track him or play tick tack toe in the known space with robotic arm.
+
+
+* Deniz mentioned that it would be a trouble when the camera does not see aruco markers. Follow ups were suggested:
+
+        - We can use the fixed object to calculate the camera point in the space.
+
+        - We can implement multiple aruco markers to the fixed points in the lab.
+
+        - We can use 360 camera for the image processing.
+
+* Ogan's written code worked on simulation but it does not go to the wanted locations.
+
+* He will get time with the parameters and will read the documentation for therobot to write it from the scratch.
+
+* Buğra mentions his trouble with the rasp pi 4. One of the machine has not a power hub and one of them did not even start booting.
+
+* Naci mentioned what he did on this week. He mentioned about the problems he encountered during the control of the servos. 
+
+* Naci explains the electronic structure of the gripper **Tutan-Khamun** . We will use rasp pi 4 for the servo control and feedbacks. Maybe in the future, we can use esp32 or even pi pico to control the ST3215 servos. Our servo driver is not an efficient way of drive the servos. 
+
+<img src="./img/yorgun_ekip.jpeg" alt="Yorgun Ekip" width="320"/>
+<img src="./img/cilgin_ekip.jpeg" alt="Cilgin Ekip" width="320"/>
+<img src="./img/yorgun_ogan.jpeg" alt="Yorgun Ogan" width="320"/>
+
+**Untill tuesday meeting:**
+
+* Deniz will getting better results in calibration.
+
+* Deniz will provide data for the errors he encountered in xy plane and depth.
+
+* Deniz will move his setup [his pc with windows] to rasp pi ubuntu 22.04.
+
+* Deniz maybe will try to use 360 camera.
+
+* Buğra will try to boot rasp pi 4 and install ras 2 humble [We will all use ros 2 humble]
+
+* Ogan will write the code for the robot control.
+
+* Ogan will write **ROMER** to the sand using code, if he fails he will do it by hardcoding.
+
+* Naci will write a demo for the st3215 servos by using Bus Servo Driver Hat A from the laptop with python.
+
+* Naci will print 1.5/1 scale gripper **Tutan-Khamun** and assemblies it.
+
+* Naci will assembly the electronics to show the setup. ( Since we are short in st3215 servos, we will not provide the actual setup. Both of them will be seperate.)
 
 ---
 
