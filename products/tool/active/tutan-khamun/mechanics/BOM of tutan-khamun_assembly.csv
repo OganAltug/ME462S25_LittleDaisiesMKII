@@ -1,0 +1,21 @@
+Item,Quantity,Name
+1,1,base_link_holder
+2,2,金属舵盘（从动） v2
+3,2,金属舵盘（驱动） v2
+4,2,GE_27
+5,2,PCB-CHAZUO_92
+6,2,MOTOR-1723_3
+7,2,XG-ZIJI_16
+8,2,SG-ZIJI_15
+9,2,ZK_122
+10,2,actuator
+11,2,rotator
+12,2,supporter
+13,2,finger_holder
+14,6,Hex socket head cap screw M5x0.80 x 50 x 22
+15,16,Hex socket head cap screw M2.5x0.45 x 8
+16,16,Chamfered plain washer normal M2.5
+17,22,Chamfered plain washer normal M5
+18,6,Prevailing torque nut M5x0.80
+19,2,Socket button head screw M5x0.8 x 40
+20,2,Socket button head screw M5x0.8 x 45
