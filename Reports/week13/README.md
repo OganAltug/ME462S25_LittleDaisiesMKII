@@ -27,8 +27,8 @@ Everyone is explained what they have done for the past week.
 * Deniz, wrote this meeting minute.
 <img src="./img/group_photo.jpg" alt="Group Photo" width="320"/>
 <img src="./img/outside_meeting.jpg" alt="Outside Meeting" width="320"/>
-<img src="./img/sunset.jpg" alt="Sunset" width="320"/>
-<img src="./img/sunset_closeup.jpg" alt="Sunset Closeup" width="320"/>
+<img src="./img/sunset.jpeg" alt="Sunset" width="320"/>
+<img src="./img/sunset_closeup.jpeg" alt="Sunset Closeup" width="320"/>
 ## 🖼️ Visual Documentation & Progress
 
 ## 🔗 Documentation Links
