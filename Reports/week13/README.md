@@ -32,11 +32,6 @@ Everyone is explained what they have done for the past week.
 ## 🖼️ Visual Documentation & Progress
 
 ## 🔗 Documentation Links
-
-* [Latest Requirements Document](../../Requirements/Readme.md)
-* [PCB Manufacturing Report](../../PCB/HowToLaserPCB.md)
-* [External Research/Docs](https://docs.google.com/...)
-
 ---
 
 ## 📝 To-Do List (Action Items)
