@@ -1,57 +1,32 @@
 # Weekly Report: LittleDaisiesMKII - Week 13
 
 **Date Range:** May 5 - May 12
-
-* Put all the images under the /img folder.
-* Put all the pdf files under the /pdf folder.
-* Put all the videos under the /media folder.
-
----
-
 ## 📊 Team Performance & Scoring
 
 *Evaluation of specific tasks and deliverables based on project requirements.*
 
-| Deliverable / Metric   | Score          | Notes                            |
-| :--------------------- | :------------- | :------------------------------- |
-| Naming Convention      | X/10           | [e.g., Followed revision 6/10]   |
-| Meeting Minutes        | X/10           | [e.g., Detailed and timely]      |
-| Interface Requirements | X/10           | [e.g., PCB/Mechanical breakdown] |
-| Control Systems        | X/10           | [e.g., Simulation vs. Physical]  |
-| Hardware/Tool Design   | X/10           | [e.g., Zen tool iterations]      |
+| Deliverable / Metric            | Score          | Notes                            |
+| Robot control and sand writing  | 10/10          | We are able to write onto the sand  |
+| Checking the new hardware given | 8/10           | Mini esp and the camera is checked  |
+| Gripper force control           | 7/10           | both force with current and fsr is tried|
+| Image Processing                | 5/10           | an object is followed via servo no updat eon arucos |
+| ?????????????????????           | ?/10           | ??????????????????????????????????????????????      |
 | **Total Score**  | **X/60** | **Avg: X.XX/10**           |
 
 ---
 
 ## 🤝 Meeting Notes
 
-### [Day, Date] - Primary Meeting
+### May 11 - Group Meeting
 
 **Key Discussion Points:**
-
-* **Decisions:** [e.g., Naming convention finalized, communication protocols selected]
-* **Hardware Progress:** [e.g., Zen Tool versioning, sieve manufacturing]
-* **Simulation & Control:** [e.g., MuJoCo pose-to-pose testing, Robotictoolbox integration]
-* **Manufacturing:** [e.g., PCB laser settings, KiCAD updates, via manufacturing]
-
-### [Day, Date] - Follow-up / Technical Sync
-
-* **Electronic Specs:** [e.g., Microcontroller deep-sleep, Wi-Fi wake support]
-* **Mechanism Brainstorming:** [e.g., Locking mechanisms, kinematic coupling ideas]
-
----
+Everyone is explained what they have done for the past week. 
+  Buğra worked on image processing on Rasppery Pi, and successfully followed and object (human) by tip of the servo. He also tried to work with FSR, and sucessfully implemented the FSR force control to the gripper machanism. Finally, he tried to work with the given esp32 with integrated camera but did not like the output feed quality.
+  Ogan kept working on the robot control. He finalized the sand-writing process, and now we are able to write on the sand. He also created a docker file for other members to efficiently and easiliy get into the robot control. Thanks Ogan.
+  Naci kept wroking on the gripper mechanism, electronics and software. He mainly focussed on the force control via current readings, however he faced with some problems. Currently the current-force control is not as reliable as we wanted. He also gathered the documentations and files about the gripper so that other members of the group can succesfully get into the gripper part.
+  Deniz, wrote this meeting minute.
 
 ## 🖼️ Visual Documentation & Progress
-
-*Capturing hardware builds and simulation results.*
-
-| Description                 | Media Placeholder                 |
-| :-------------------------- | :-------------------------------- |
-| **Mechanical Design** | ![Hardware](path/to/image.jpg)      |
-| **Simulation Runs**   | ![Simulation](path/to/gif.gif)      |
-| **Schematics**        | ![PCB/Diagram](path/to/diagram.png) |
-
----
 
 ## 🔗 Documentation Links
 
