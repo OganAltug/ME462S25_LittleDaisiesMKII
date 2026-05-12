@@ -11,7 +11,7 @@
 | Checking the new hardware given | 8/10           | Mini esp and the camera is checked  |
 | Gripper force control           | 7/10           | both force with current and fsr is tried|
 | Image Processing                | 5/10           | an object is followed via servo no updat eon arucos |
-| TutanKhamun Gripper Assembly    | 10/10           | ??????????????????????????????????????????????      |
+| TutanKhamun Gripper Assembly    | 10/10          | TutanKhamun the Heybetli is Assembled      |
 | **Total Score**  | **X/60** | **Avg: X.XX/10**           |
 ---
 
@@ -37,9 +37,9 @@ Everyone is explained what they have done for the past week.
 * Tutan Khamun Assembly
 <img src="./img/tutan_kahmun.jpeg" alt="tutan_kahmun" width="320"/>
 * Plots from Tutan-Khamun current-force control
-<img src="./img/servo_telemetry_20260511_195408.png" alt="Only Threshold" width="320"/>
-<img src="./img/servo_telemetry_20260511_210122.png" alt="Delta Threshold" width="320"/>
-<img src="./img/servo_telemetry_20260511_211433.png" alt="Burn-out" width="320"/>
+<img src="./plots/servo_telemetry_20260511_195408.png" alt="Only Threshold" width="320"/>
+<img src="./plots/servo_telemetry_20260511_210122.png" alt="Delta Threshold" width="320"/>
+<img src="./plots/servo_telemetry_20260511_211433.png" alt="Burn-out" width="320"/>
 
 ## 🔗 Documentation Links
 [Robot Control Docker Repo](https://github.com/OganAltug/ME462ZenPoolWorkspace)
