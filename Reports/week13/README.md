@@ -21,10 +21,10 @@
 
 **Key Discussion Points:**
 Everyone is explained what they have done for the past week. 
-  Buğra worked on image processing on Rasppery Pi, and successfully followed and object (human) by tip of the servo. He also tried to work with FSR, and sucessfully implemented the FSR force control to the gripper machanism. Finally, he tried to work with the given esp32 with integrated camera but did not like the output feed quality.
-  Ogan kept working on the robot control. He finalized the sand-writing process, and now we are able to write on the sand. He also created a docker file for other members to efficiently and easiliy get into the robot control. Thanks Ogan.
-  Naci kept wroking on the gripper mechanism, electronics and software. He mainly focussed on the force control via current readings, however he faced with some problems. Currently the current-force control is not as reliable as we wanted. He also gathered the documentations and files about the gripper so that other members of the group can succesfully get into the gripper part.
-  Deniz, wrote this meeting minute.
+  *Buğra worked on image processing on Rasppery Pi, and successfully followed and object (human) by tip of the servo. He also tried to work with FSR, and sucessfully implemented the FSR force control to the gripper machanism. Finally, he tried to work with the given esp32 with integrated camera but did not like the output feed quality.
+  *Ogan kept working on the robot control. He finalized the sand-writing process, and now we are able to write on the sand. He also created a docker file for other members to efficiently and easiliy get into the robot control. Thanks Ogan.
+  *Naci kept wroking on the gripper mechanism, electronics and software. He mainly focussed on the force control via current readings, however he faced with some problems. Currently the current-force control is not as reliable as we wanted. He also gathered the documentations and files about the gripper so that other members of the group can succesfully get into the gripper part.
+  *Deniz, wrote this meeting minute.
 
 ## 🖼️ Visual Documentation & Progress
 
