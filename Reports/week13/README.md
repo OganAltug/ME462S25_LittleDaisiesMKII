@@ -25,7 +25,10 @@ Everyone is explained what they have done for the past week.
 * Ogan kept working on the robot control. He finalized the sand-writing process, and now we are able to write on the sand. He also created a docker file for other members to efficiently and easiliy get into the robot control. Thanks Ogan.
 * Naci kept wroking on the gripper mechanism, electronics and software. He mainly focussed on the force control via current readings, however he faced with some problems. Currently the current-force control is not as reliable as we wanted. He also gathered the documentations and files about the gripper so that other members of the group can succesfully get into the gripper part.
 * Deniz, wrote this meeting minute.
-
+<img src="./img/group_photo.jpg" alt="Group Photo" width="320"/>
+<img src="./img/outside_meeting.jpg" alt="Outside Meeting" width="320"/>
+<img src="./img/sunset.jpg" alt="Sunset" width="320"/>
+<img src="./img/sunset_closeup.jpg" alt="Sunset Closeup" width="320"/>
 ## 🖼️ Visual Documentation & Progress
 
 ## 🔗 Documentation Links
