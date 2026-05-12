@@ -1,18 +1,18 @@
 # Weekly Report: LittleDaisiesMKII - Week 13
 
 **Date Range:** May 5 - May 12
+---
 ## 📊 Team Performance & Scoring
 
 *Evaluation of specific tasks and deliverables based on project requirements.*
-```
 | Deliverable / Metric            | Score          | Notes                            |
+| :------------------------------------------ | :------------- | :--------------------- |
 | Robot control and sand writing  | 10/10          | We are able to write onto the sand  |
 | Checking the new hardware given | 8/10           | Mini esp and the camera is checked  |
 | Gripper force control           | 7/10           | both force with current and fsr is tried|
 | Image Processing                | 5/10           | an object is followed via servo no updat eon arucos |
 | ?????????????????????           | ?/10           | ??????????????????????????????????????????????      |
 | **Total Score**  | **X/60** | **Avg: X.XX/10**           |
-```
 ---
 
 ## 🤝 Meeting Notes
