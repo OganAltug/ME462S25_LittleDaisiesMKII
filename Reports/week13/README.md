@@ -30,9 +30,9 @@ Everyone is explained what they have done for the past week.
 <img src="./img/sunset.jpeg" alt="Sunset" width="320"/>
 <img src="./img/sunset_closeup.jpeg" alt="Sunset Closeup" width="320"/>
 ## 🖼️ Visual Documentation & Progress
-<img src="./img/sand_writing.jpeg" alt="Sunset Closeup" width="320"/>
-<img src="./img/esp_32_feed.jpeg" alt="Sunset Closeup" width="320"/>
-<img src="./img/tutan_khamun.jpeg" alt="Sunset Closeup" width="320"/>
+<img src="./img/sand_writing.jpg" alt="Sunset Closeup" width="320"/>
+<img src="./img/esp_32_feed.jpg" alt="Sunset Closeup" width="320"/>
+<img src="./img/tutan_kahmun.jpeg" alt="Sunset Closeup" width="320"/>
 
 ## 🔗 Documentation Links
 ---
