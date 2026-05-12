@@ -12,7 +12,7 @@
 | Gripper force control           | 7/10           | both force with current and fsr is tried|
 | Image Processing                | 5/10           | an object is followed via servo no updat eon arucos |
 | TutanKhamun Gripper Assembly    | 10/10          | TutanKhamun the Heybetli is Assembled      |
-| **Total Score**  | **X/60** | **Avg: X.XX/10**           |
+| **Total Score**  | **40/50** | **Avg: 8/10**           |
 ---
 
 ## 🤝 Meeting Notes
