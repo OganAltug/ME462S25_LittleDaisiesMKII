@@ -23,19 +23,19 @@
 Everyone is explained what they have done for the past week. 
 * Buğra worked on image processing on Rasppery Pi, and successfully followed and object (human) by tip of the servo. He also tried to work with FSR, and sucessfully implemented the FSR force control to the 2f-85 gripper machanism. Finally, he tried to work with the given esp32 with integrated camera but did not like the output feed quality.
 * Some search about the head is done.
--[IDEA 1](https://www.youtube.com/shorts/ejHmpcbf4PA)
--[IDEA 2](https://www.youtube.com/shorts/wkof60aqg6w)
--[IDEA 3](https://www.youtube.com/shorts/eSnn20z8AxQ)
--[IDEA 4](https://www.youtube.com/watch?v=IT1uBUsOmUY)
--[IDEA 5](https://www.youtube.com/shorts/pm9Umdwg9uo)
--[IDEA 6](https://www.youtube.com/shorts/5SJYWTB2Nf4)
--[IDEA 7](https://youtube.com/shorts/Qu2Ccx3YggI?si=xmM9Od8_wPeU3PLN)
--[IDEA 8](https://youtube.com/shorts/5SJYWTB2Nf4?si=HgB3RJdVCw9v34qi)
--[IDEA 9](https://youtube.com/shorts/ARHM2iDbWIY?si=fSSAW8HbxofMi2Qx)
--[IDEA 10]
-<img src="./img/kafakol.jpg" alt="Kafa Kol" width="320"/>
--[IDEA 11]
-<img src="./img/sakaladam.jpg" alt="Sakal Adam" width="320"/>
+  -[IDEA 1](https://www.youtube.com/shorts/ejHmpcbf4PA)
+  -[IDEA 2](https://www.youtube.com/shorts/wkof60aqg6w)
+  -[IDEA 3](https://www.youtube.com/shorts/eSnn20z8AxQ)
+  -[IDEA 4](https://www.youtube.com/watch?v=IT1uBUsOmUY)
+  -[IDEA 5](https://www.youtube.com/shorts/pm9Umdwg9uo)
+  -[IDEA 6](https://www.youtube.com/shorts/5SJYWTB2Nf4)
+  -[IDEA 7](https://youtube.com/shorts/Qu2Ccx3YggI?si=xmM9Od8_wPeU3PLN)
+  -[IDEA 8](https://youtube.com/shorts/5SJYWTB2Nf4?si=HgB3RJdVCw9v34qi)
+  -[IDEA 9](https://youtube.com/shorts/ARHM2iDbWIY?si=fSSAW8HbxofMi2Qx)
+  -[IDEA 10]
+    <img src="./img/kafakol.jpg" alt="Kafa Kol" width="320"/>
+  -[IDEA 11]
+    <img src="./img/sakaladam.png" alt="Sakal Adam" width="320"/>
 * Ogan kept working on the robot control. He finalized the sand-writing process, and now we are able to write on the sand. He also created a docker file for other members to efficiently and easiliy get into the robot control. Thanks Ogan.
 * Naci kept wroking on the gripper mechanism, electronics and software. He mainly focussed on the force control via current readings, however he faced with some problems. Currently the current-force control is not as reliable as we wanted. He also gathered the documentations and files about the gripper so that other members of the group can succesfully get into the gripper part.
 * Deniz, wrote this meeting minute.
