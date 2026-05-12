@@ -11,7 +11,7 @@
 | Checking the new hardware given | 8/10           | Mini esp and the camera is checked  |
 | Gripper force control           | 7/10           | both force with current and fsr is tried|
 | Image Processing                | 5/10           | an object is followed via servo no updat eon arucos |
-| ?????????????????????           | ?/10           | ??????????????????????????????????????????????      |
+| TutanKhamun Gripper Assembly    | 10/10           | ??????????????????????????????????????????????      |
 | **Total Score**  | **X/60** | **Avg: X.XX/10**           |
 ---
 
@@ -30,9 +30,16 @@ Everyone is explained what they have done for the past week.
 <img src="./img/sunset.jpeg" alt="Sunset" width="320"/>
 <img src="./img/sunset_closeup.jpeg" alt="Sunset Closeup" width="320"/>
 ## 🖼️ Visual Documentation & Progress
-<img src="./img/sand_writing.jpg" alt="Sunset Closeup" width="320"/>
-<img src="./img/esp_32_feed.jpg" alt="Sunset Closeup" width="320"/>
-<img src="./img/tutan_kahmun.jpeg" alt="Sunset Closeup" width="320"/>
+* Writing Little Daisies on the sandpool
+<img src="./img/sand_writing.jpg" alt="Little Daisies on the Sand" width="320"/>
+* Feed from esp32
+<img src="./img/esp_32_feed.jpg" alt="Feed from esp32" width="320"/>
+* Tutan Khamun Assembly
+<img src="./img/tutan_kahmun.jpeg" alt="tutan_kahmun" width="320"/>
+* Plots from Tutan-Khamun current-force control
+<img src="./img/servo_telemetry_20260511_195408.png" alt="Only Threshold" width="320"/>
+<img src="./img/servo_telemetry_20260511_210122.png" alt="Delta Threshold" width="320"/>
+<img src="./img/servo_telemetry_20260511_211433.png" alt="Burn-out" width="320"/>
 
 ## 🔗 Documentation Links
 [Robot Control Docker Repo](https://github.com/OganAltug/ME462ZenPoolWorkspace)
