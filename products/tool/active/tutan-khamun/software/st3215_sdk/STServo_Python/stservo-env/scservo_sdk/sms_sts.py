@@ -70,6 +70,24 @@ class sms_sts(protocol_packet_handler):
         scs_present_position, scs_comm_result, scs_error = self.read2ByteTxRx(scs_id, SMS_STS_PRESENT_POSITION_L)
         return self.scs_tohost(scs_present_position, 15), scs_comm_result, scs_error
 
+    def ReadLoad(self, scs_id):
+        scs_present_load, scs_comm_result, scs_error = self.read2ByteTxRx(scs_id, SMS_STS_PRESENT_LOAD_L)
+        # ST3215 Load is an 11-bit value (0-1000). The 11th bit (bit 10) indicates direction.
+        return self.scs_tohost(scs_present_load, 10), scs_comm_result, scs_error
+
+    def ReadVoltage(self, scs_id):
+        scs_present_voltage, scs_comm_result, scs_error = self.read1ByteTxRx(scs_id, SMS_STS_PRESENT_VOLTAGE)
+        return scs_present_voltage, scs_comm_result, scs_error
+
+    def ReadTemper(self, scs_id):
+        scs_present_temperature, scs_comm_result, scs_error = self.read1ByteTxRx(scs_id, SMS_STS_PRESENT_TEMPERATURE)
+        return scs_present_temperature, scs_comm_result, scs_error
+        
+    def ReadCurrent(self, scs_id):
+        scs_present_current, scs_comm_result, scs_error = self.read2ByteTxRx(scs_id, SMS_STS_PRESENT_CURRENT_L)
+        # Current uses bit 15 for sign direction
+        return self.scs_tohost(scs_present_current, 15), scs_comm_result, scs_error
+
     def ReadSpeed(self, scs_id):
         scs_present_speed, scs_comm_result, scs_error = self.read2ByteTxRx(scs_id, SMS_STS_PRESENT_SPEED_L)
         return self.scs_tohost(scs_present_speed, 15), scs_comm_result, scs_error
