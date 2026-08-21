@@ -1,3 +1,0 @@
-/home/abdullah-naci-bodur/Desktop/ME462S25_LittleDaisiesMKII/products/tool/active/tutan-khamun/software/st3215_sdk/SCServo_Linux/SCServo_Linux_220329/SCServo_Linux/CMakeFiles/SCServo.dir
-/home/abdullah-naci-bodur/Desktop/ME462S25_LittleDaisiesMKII/products/tool/active/tutan-khamun/software/st3215_sdk/SCServo_Linux/SCServo_Linux_220329/SCServo_Linux/CMakeFiles/edit_cache.dir
-/home/abdullah-naci-bodur/Desktop/ME462S25_LittleDaisiesMKII/products/tool/active/tutan-khamun/software/st3215_sdk/SCServo_Linux/SCServo_Linux_220329/SCServo_Linux/CMakeFiles/rebuild_cache.dir
