@@ -1,0 +1,12 @@
+[submodule "products/tutan-khamun"]
+	path = products/tutan-khamun
+	url = https://gitlab.com/littledaisies/tutan-khamun.git
+[submodule "products/2f-85"]
+	path = products/2f-85
+	url = https://gitlab.com/littledaisies/2f-85.git
+[submodule "products/daisy"]
+	path = products/daisy
+	url = https://gitlab.com/littledaisies/daisy.git
+[submodule "products/generalrobotcontrol"]
+	path = products/generalrobotcontrol
+	url = https://gitlab.com/littledaisies/generalrobotcontrol.git

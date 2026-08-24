@@ -37,33 +37,42 @@ This capstone project was developed as part of the **ME462 (Mechatronics Design)
 
 ---
 
-## 📦 Products & End-Effector Ecosystem
+## 📦 Products & Sub-Repositories Ecosystem
 
-All tools in the Little Daisies MKII ecosystem are actuated and manipulated by the robotic arm via the custom quick-change tool locking interface:
+All tools and controllers in the Little Daisies MKII ecosystem are integrated as sub-repositories under the [`products/`](products/) directory:
 
 ### 🦾 Active Tools (3 End-Effectors)
 
-#### 1. [Tutan-Khamun Active Gripper](file:///h:/romer/tutan-khamun) *(Industrial Adaptive Gripper)*
+#### 1. [Tutan-Khamun Active Gripper](https://gitlab.com/littledaisies/tutan-khamun.git) (`products/tutan-khamun/`) *(Industrial Adaptive Gripper)*
 * **Compute:** Raspberry Pi 4 / 5 (Linux Bookworm + ROS 2 Jazzy).
 * **Actuation:** Dual ST3215 Serial Bus Servos (Half-Duplex TTL, 30kg.cm).
 * **Power:** Waveshare 3S UPS Module (11.1V – 12.6V).
-* **Features:** Mathematical **Derivative-Based Sensorless Homing** ($dLoad/dt$), Logitech Gamepad teleoperation, real-time 100Hz telemetry logging, and containerized ROS 2 driver nodes with ArUco vision tracking.
+* **Features:** Mathematical **Derivative-Based Sensorless Homing** ($dLoad/dt$), Logitech Gamepad teleoperation, real-time 100Hz telemetry logging, containerized ROS 2 driver nodes with ArUco vision tracking, and [Onshape 3D CAD](https://cad.onshape.com/documents/0e67541168c599776dc2a496/w/5087dd88fe122563ce5245cb/e/e0f4186113e8f8473ac20371).
 
-#### 2. [2F-85 Active Gripper](file:///h:/romer/2f-85) *(Smart Budget Adaptive Gripper)*
+#### 2. [2F-85 Active Gripper](https://gitlab.com/littledaisies/2f-85.git) (`products/2f-85/`) *(Smart Budget Adaptive Gripper)*
 * **Compute:** Raspberry Pi Pico W (MicroPython embedded core).
 * **Actuation:** Dual RDS3115MG Digital Metal Gear Servos (20kg.cm, 50Hz PWM).
 * **Power:** Waveshare 2S UPS HAT/Module with live **INA219 I2C battery telemetry**.
-* **Features:** Dual **Force Sensing Resistor (FSR)** tactile pressure sensing for independent compliant object wrapping, **MQTT over Wi-Fi** remote teleoperation, interactive CLI client, and optional ROS 2 MQTT bridge.
+* **Features:** Dual **Force Sensing Resistor (FSR)** tactile pressure sensing for independent compliant object wrapping, **MQTT over Wi-Fi** remote teleoperation, interactive CLI client, optional ROS 2 MQTT bridge, and [Onshape 3D CAD](https://cad.onshape.com/documents/83aca715113abc33bf7a7ea1/w/fca71dd4afa92649c36d50d7/e/11c9b139ab6dce3549fb3baa).
 
-#### 3. Daisy Active Tool *(Interactive Smart Multi-Tool)*
-* **Overview:** A smart interactive active tool engineered to communicate and collaborate with other end-effectors in the workspace.
-* **Features:** Multi-sensor integration, coordinated task execution, and autonomous interactions *(detailed documentation and firmware will be published in its dedicated sub-repository)*.
+#### 3. [Daisy Active Tool](https://gitlab.com/littledaisies/daisy.git) (`products/daisy/`) *(Interactive Smart Robot Head)*
+* **Compute:** Waveshare RP2350 Touch LCD 1.28" + Raspberry Pi 4/5 Host.
+* **Actuation & Sensors:** 2-DOF Pan/Tilt digital servos, GC9A01 240x240 circular IPS LCD, CST816S capacitive touch, QMI8658 6-axis IMU, wide-angle camera.
+* **Features:** Animated expressive eye rendering engine, text display & countdown on circular LCD, choreographed gestures (nod, dance, greet, celebrate), YOLO/ONNX vision tracking, ROS 2 Jazzy bridge & Docker containerization, and [Onshape 3D CAD](https://cad.onshape.com/documents/f9f45dfda5ef28b74127ebf8/w/7af2920ccaf33b33f47e854c/e/35cb9935fa98d83f1ac8e302).
+
+---
+
+### 🕹️ Master Robotic Arm Control & Visual Servoing
+
+#### 4. [General Robot Control](https://gitlab.com/littledaisies/generalrobotcontrol.git) (`products/generalrobotcontrol/`) *(UR5e Master Integration)*
+* **Compute & Middleware:** ROS 2 Jazzy, MoveIt 2, MoveIt Servo, and Pilz Industrial Motion Planner.
+* **Features:** Universal Robots UR5e driver integration, real-time velocity IK teleoperation, AI Face Tracking (35cm distance tracking), ArUco visual servoing, dynamic collision object manager (pick/drop tool meshes), headless MoveIt dashboard, and automated Zen garden drawing and surface cleaning engine.
 
 ---
 
 ### 🖌️ Passive Tools (1 Multi-Tool Set)
 
-#### 4. Zen Garden Passive Tool Set
+#### 5. Zen Garden Passive Tool Set
 * **Overview:** Precision passive tool attachments designed for automated drawing, path following, and surface clearing operations in a Zen garden or canvas environment.
 * **Tool Attachments:**
   * **Precision Pen Tool:** Compliant pen holder fixture for high-accuracy trajectory tracing and drawing.
@@ -106,6 +115,12 @@ All tools in the Little Daisies MKII ecosystem are actuated and manipulated by t
 
 ```bash
 ME462S25_LittleDaisiesMKII/
+├── products/                                  # 📦 Sub-Repositories (Git Submodules)
+│   ├── tutan-khamun/                          # Industrial ST3215 Serial Bus Servo Gripper
+│   ├── 2f-85/                                 # Smart Budget Pico W / MQTT Gripper
+│   ├── daisy/                                 # Interactive Smart Robot Head (RP2350 / ROS 2)
+│   └── generalrobotcontrol/                   # UR5e Master Motion, MoveIt 2 & Visual Servoing
+│
 ├── MujocoSim/                                 # 🦾 UR5e Physics Simulation (MuJoCo)
 │   ├── assets/                                # UR5e 3D meshes (base, shoulder, arm, wrist)
 │   ├── scene.xml                              # MuJoCo world and environment definition
@@ -126,6 +141,7 @@ ME462S25_LittleDaisiesMKII/
 │   └── week_template/                         # Standardized report format
 │
 ├── .gitignore                                 # Git exclusion rules
+├── .gitmodules                                # Submodule definitions
 └── README.md                                  # Main project documentation
 ```
 
@@ -133,17 +149,31 @@ ME462S25_LittleDaisiesMKII/
 
 ## 🚀 Getting Started
 
-### 1. Exploring the Sub-Repositories
-* **Tutan-Khamun (ST3215 Gripper):** See [`tutan-khamun/README.md`](../tutan-khamun/README.md)
-* **2F-85 (Pico W Gripper):** See [`2f-85/README.md`](../2f-85/README.md)
+### 1. Cloning the Repository with Submodules
+To clone the entire project along with all product sub-repositories:
+```bash
+git clone --recurse-submodules https://gitlab.com/littledaisies/ME462S25_LittleDaisiesMKII.git
+```
 
-### 2. Running the UR5e MuJoCo Simulation
+If you already cloned the repository without submodules, initialize and update them:
+```bash
+git submodule update --init --recursive
+```
+
+### 2. Exploring the Sub-Repositories
+* **Tutan-Khamun (ST3215 Gripper):** See [`products/tutan-khamun/README.md`](products/tutan-khamun/README.md)
+* **2F-85 (Pico W Gripper):** See [`products/2f-85/README.md`](products/2f-85/README.md)
+* **Daisy (Interactive Robot Head):** See [`products/daisy/README.md`](products/daisy/README.md)
+* **General Robot Control (UR5e Master Workspace):** See [`products/generalrobotcontrol/README.md`](products/generalrobotcontrol/README.md)
+
+### 3. Running the UR5e MuJoCo Simulation
 ```bash
 cd MujocoSim
 pip install mujoco robot_descriptions roboticstoolbox-python
 python mujoco_test.py
 ```
 
-### 3. Reviewing Manufacturing Guides
+### 4. Reviewing Manufacturing Guides
 * For rapid laser PCB production: [`PCB/HowToLaserPCB.md`](PCB/HowToLaserPCB.md)
 * For technical requirements: [`Requirements/Readme.md`](Requirements/Readme.md)
+
